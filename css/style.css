@@ -257,7 +257,7 @@ li {
 }
 
 #works .card-caption-url {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #works .card-wrapper {
@@ -269,7 +269,7 @@ li {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /*--------------------------------
@@ -392,7 +392,7 @@ li {
 #contact .contact-list {
   padding: 20px 0;
 }
-
+/*--------------------------
 #contact .contact-list ul {
   width: 40%;
   margin: 0 auto;
@@ -407,9 +407,11 @@ li {
   align-self: flex-end;
   ;
 }
+-----------------------------*/
 
 #contact .contact-list li {
   text-align: center;
+  font-size:18px;
 }
 
 #contact .contact-list li a {
